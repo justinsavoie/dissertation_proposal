@@ -1,0 +1,31 @@
+--- 
+title: "Word embeddings for the analysis of ideology and identity in Canadian politics"
+subtitle: |
+  | 
+  | Department of Political Science, University of Toronto
+  | 
+  | Dissertation Research Proposal
+author: "Justin Savoie"
+header-includes:
+    #- \usepackage{setspace}\doublespacing
+    - \usepackage{float}
+    - \usepackage[left=3cm,right=3cm,top=3cm,bottom=3cm]{geometry}
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+classoption: openany
+linestretch: 1.75
+bibliography: [references.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+---
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```

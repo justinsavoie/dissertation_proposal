@@ -1,0 +1,8 @@
+# A model of author style with word embeddings
+
+The previous chapter asked if the way political keywords were used over time changed. This chapter asks if backbenchers members of parliament use political keywords differently. This chapter is a replication and an extension of @huang2020general. It is first a replication: the authors establish a model of Author “Style” in the UK House of Commons (1935-2018). They ask if backbenchers have “become less distinctive from one another in terms of their speech”. Providing a model of “distinctiveness”, they find no evidence of increased homogeneity, but they do find that senior backbenchers used to be less different, but that this is changing in recent years. 
+
+This chapter is, hence, first a replication, but it is also an extension. As the authors mention, their model is an implementation of a traditional Poisson distribution model [@mosteller1963inference]. The authors go on to say that the use of a word-embeddings approach could be used is the intention was to focus on feature representation (p.9). The objective is, hence, to extend this model of author style with the use of word embeddings to focus on the representation of meaning inside the model. Whereas they model author style using word frequencies, I will try to model it using a model averaging word vectors for users. I will further compare results from the Poisson model to results from the word embeddings model.
+
+The data used will be the same as for the previous chapter: the Canadian Parliamentary dataset (Hansard). Strategic coding choices will closely follow the one adopted by @huang2020general. For instance, “experience” can be calculated as the number of sessions served in parliament since first speech.   
+

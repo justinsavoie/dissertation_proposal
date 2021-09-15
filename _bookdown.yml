@@ -1,0 +1,5 @@
+book_filename: "Justin Savoie Proposal 2021-09-15"
+language:
+  ui:
+    chapter_name: "Chapter "
+delete_merged_file: true

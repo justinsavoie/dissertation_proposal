@@ -1,0 +1,25 @@
+# Timeline
+
+```{r echo = FALSE, results = 'asis'}
+library(flextable)
+
+col1 <- 
+c("Methodology chapter with examples using (1) naïve time series, (2) overlapping model (3) aligned model (4) chronologically trained model (5) à la carte on text ",
+"Hansard chapter (analysis and write up)", 
+"Backbencher chapter (analysis and write up)",
+"Twitter chapter (analysis and write up)",
+"Conclusion/editing",
+"Peer-review process, edits, back and forth for feedback and criticism supervisor, committee, etc.")
+
+col2 <- 
+c("September – October 2021",
+"October – December 2021",
+"December – January 2021-2022",
+"February – April 2022",
+"May 2022",
+"June 2022 - ")
+
+flextable(data.frame(Item=col1,Dates=col2), cwidth = 3)
+
+
+```

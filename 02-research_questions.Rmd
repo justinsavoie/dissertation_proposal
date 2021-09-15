@@ -1,0 +1,4 @@
+# Research questions
+
+The main research question in this study is: can we use word embeddings to document and map the changing meaning of key terms used when talking about politics in Canada? Is it possible to reproduce, even in an approximate form, a 'commonly-accepted-among-scholars' analysis of the development of the meaning of four key concepts in Canadian politics: rights, identity, citizenship, and nation. Such an approach combines the scope of conceptual approaches with at least some of the breadth of linguistic approaches, while capitalizing on quantitative method’s empirical grounding. I define ideology and identity in a broad sense as the thoughts, beliefs, attitudes, behaviours, and values that are related to politics.
+
